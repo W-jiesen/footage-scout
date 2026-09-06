@@ -1,0 +1,27 @@
+{
+  "_comment": "Example query derivation for a 120s vertical AI-news explainer ('GPT-6 Astra 体检报告'). Each key is a storyboard frame; each value is 2-4 concrete filmable queries. History beats get era-qualified archival queries (archive.org); emotional beats get modern stock (pexels/pixabay).",
+  "usage": "python scripts/footage_scout.py search --queries-file examples/scene-queries.example.json --providers pexels,pixabay,archive --orientation portrait --out scout-example",
+  "queries": {
+    "frame1-anxiety-hook": [
+      "woman staring at laptop worried late night",
+      "office worker anxious computer screen closeup"
+    ],
+    "frame2-end-to-end-work": [
+      "hands typing keyboard multiple screens code",
+      "developer working terminal screens modern office"
+    ],
+    "frame3-benchmark-jump": [
+      "data center server racks blue lights",
+      "walking through server room corridor"
+    ],
+    "frame4-engineering-delivery": [
+      "engineer CAD design computer screen",
+      "3d printer manufacturing timelapse"
+    ],
+    "frame5-history-context": [
+      "1960s mainframe computer room",
+      "punch card machine operator vintage",
+      "1970s computer laboratory scientists"
+    ]
+  }
+}
